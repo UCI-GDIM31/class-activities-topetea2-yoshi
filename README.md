@@ -9,7 +9,19 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 
 2. The _bounce variable is considered an int because we are given a whole number, rather than a decimal.
 
-3. The only error I've gotten was not including the float variable. 
+3. The only error I've gotten was not including the float variable.
+
+### W3 
+
+Table 6: Rythem Game Project
+   A boolean method is necessary 
+   KeyPress and time
+
+2. Writing a metaphor
+
+
+3. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
