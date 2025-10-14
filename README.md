@@ -5,7 +5,11 @@ Hello World!
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The reason why the variables r, g, and b are considered as float variables, instead of int, bool, or string variables is because these numbers contain decimal points. 
 
+2. The _bounce variable is considered an int because we are given a whole number, rather than a decimal.
+
+3. The only error I've gotten was not including the float variable. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
