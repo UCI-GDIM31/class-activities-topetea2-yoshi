@@ -98,7 +98,9 @@ public class CatW3 : MonoBehaviour
             
 
             // STEP 2 ---------------------------------------------------------
-
+            DecreaseHealth(); 
+            
+               
             // STEP 6 ---------------------------------------------------------
             // Write an IF STATEMENT below that does the following:
             // IF the cat's health is below or equal to 0, AND
@@ -129,7 +131,7 @@ public class CatW3 : MonoBehaviour
     private void DecreaseHealth()
     {
         // write Step 3 below this comment!
-
+        _healthText.text = "health = " + _health;
 
         // STEP 5 -------------------------------------------------------------
         // Once you've finished Step 4, CALL the GetHealthSpeechText method
@@ -153,11 +155,20 @@ public class CatW3 : MonoBehaviour
     //      return "OH NO!".
     // 2. Otherwise, return "ouch".
 
-    //private ??? GetHealthSpeechText()
-    //{
+    private string GetHealthSpeechText()
+    {
         // put the method body here!
+        if (_health < _maxHealth / 2) 
+        {
+         
+         return ("OH NO!");
         
-    //}
+        }else{
+            
+            return ("ouch");
+        }
+        
+    }
     
     // STEP 4 -----------------------------------------------------------------
 
