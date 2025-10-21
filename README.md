@@ -24,7 +24,7 @@ Table 6: Rythem Game Project
 The ball gets extremely bright after repeating bounces because their velocity increases each time, and that velocity is directly tied to brightness. Apparently I heard that the colors values in unity tends to not clamp when the ball bounces almost consistently in which the brightness can exceed the normal range, causing the balls to appear overly bright. This shows how small changes in physics like increasing velocity can quickly have a big impact on how things look in the game.
 
 ### W4 
-1. Lines 
+1. Lines 5 and 22 are declaring the member variables movement for the cat object, while lines 22-25 are declaring the direction for the cat. 
 
 ## Open-Source Assets
 ### W1
