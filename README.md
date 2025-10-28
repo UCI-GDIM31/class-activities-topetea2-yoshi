@@ -25,7 +25,13 @@ The ball gets extremely bright after repeating bounces because their velocity in
 
 ### W4 
 Table #6
-1. Lines 5 and 22 are declaring the member variables movement for the cat object, while lines 22-25 are declaring the direction for the cat. 
+1. Lines 5 and 22 are declaring the member variables movement for the cat object, while lines 22-25 are declaring the direction for the cat.
+
+Table #6 
+
+2. For our scene, we added Rigidbody components to the Cat and SoccerBall because both objects need to interact with physics. The cat kicks the ball, and the ball bounces off walls and moves. We did not add a Rigidbody to the Goal, since it’s a static object that doesn’t need to move.
+
+3. We checked Is Trigger on the Goal’s Collider so it could detect when the ball enters without physically blocking it. This allowed us to trigger goal-scoring logic without interfering with the ball’s movement. We left Is Trigger unchecked on the Cat and SoccerBall because they need real collisions for bouncing and kicking.
 
 ## Open-Source Assets
 ### W3
