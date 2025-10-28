@@ -34,8 +34,15 @@ Table #6
 3. We checked Is Trigger on the Goal’s Collider so it could detect when the ball enters without physically blocking it. This allowed us to trigger goal-scoring logic without interfering with the ball’s movement. We left Is Trigger unchecked on the Cat and SoccerBall because they need real collisions for bouncing and kicking.
 
 ### W5 
-How can we use GameObjects and Components to use vectors?
+1. How can we use GameObjects and Components to use vectors?
+
 By effectivly using GameObjects and Components with vectors, you can create dynamic and interactive game environments that enhances the player's experiences. 
+
+2. Planning the DeerW5 Script:
+   1. We determine where the deer should go by using the _destination variable. 
+   2. In the Start() method, we use GetComponent<NavMeshAgent>() to access the NavMeshAgent component attached to the Deer GameObject.
+   3. Once we have access to the NavMeshAgent, we call SetDestination(_destination.position).
+   
 
 ## Open-Source Assets
 ### W3
