@@ -43,7 +43,10 @@ By effectivly using GameObjects and Components with vectors, you can create dyna
    2. In the Start() method, we use GetComponent<NavMeshAgent>() to access the NavMeshAgent component attached to the Deer GameObject.
    3. Once we have access to the NavMeshAgent, we call SetDestination(_destination.position).
    
+### W6
+Activity 1: https://docs.google.com/document/d/1IZFJUcFgjnf2ph_xvqjTaqAltUuFe4KMaDIYs-4cPV8/edit?usp=sharing
 
+Activitiy 2: 
 ## Open-Source Assets
 ### W3
 1. Table 6: Rythem Game Project
