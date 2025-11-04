@@ -47,6 +47,37 @@ By effectivly using GameObjects and Components with vectors, you can create dyna
 Activity 1: https://docs.google.com/document/d/1IZFJUcFgjnf2ph_xvqjTaqAltUuFe4KMaDIYs-4cPV8/edit?usp=sharing
 
 Activitiy 2: 
+Steps for BatW6:
+Member Variables: 
+_speed (float) - controls how fast the bat moves toward the player. 
+_playerTransform - Stores the players position so the bat knows where to chase
+_messages - hold possible reaction messages the bat can say
+
+Methods:
+Update();
+
+DisableChase(); - stops chasing 
+SayMessage(); - Picks a random message from _messages and displays it
+
+CreateReactions(BatW6 bat) - called when a bat is very close to the player
+
+SpawnReactionUI(BatW6 bat, string message) - spawns a text object near the bat. 
+
+What should the methods do:
+EnableChase() turn on chasing and store the players position
+
+DisableChase() - Stop chasing by disablings the script. 
+
+Update() - move the bat towards the player every frame.
+
+sayMessages() - randomly select and display a message.
+
+CreateReactions() - check cooldown timer, then spawn a message.
+
+SpawnReactionUI() - Instantitate a UI text. 
+
+
+
 ## Open-Source Assets
 ### W3
 1. Table 6: Rythem Game Project
