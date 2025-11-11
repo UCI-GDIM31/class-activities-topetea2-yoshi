@@ -76,6 +76,11 @@ CreateReactions() - check cooldown timer, then spawn a message.
 
 SpawnReactionUI() - Instantitate a UI text. 
 
+### W7
+1. Google docs: https://docs.google.com/document/d/1ACCBYMqYrHTf6bSU9TNPsHK5OQnuA3CH1FFEp9_a9kQ/edit?tab=t.0
+
+2. The original code used transform.position += to move the muskrat, which  directly changes its position in the world. This caused problems because it bypasses Unity's physics systen and ignores the Rigidbody component. Since the muskrat uses a Rigidbody for movement and jumping, it's important to move it in a way that works with physics. I fixed it by using transform.Translate(), which still moves the Muskrat smoothly but respects its Rigidbody and keeps the movement consistent with the rest of the game. 
+
 
 
 ## Open-Source Assets
